@@ -1,18 +1,26 @@
-## Getting Started
+Exercise: Online Shopping System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+AIm of the exercise is to create a simplified online shopping system using inheritance. Consider the following entities:
 
-## Folder Structure
+User: Base class for all users with properties like userId, username, and email.
+Customer: Subclass of User with additional properties like address and shoppingCart.
+Admin: Subclass of User with additional properties like adminId and adminRole.
+Implement the classes with the following details:
 
-The workspace contains two folders by default, where:
+User Class:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Properties: userId, username, email
+Constructor(s), getters, and setters.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Customer Class (Inherits from User):
+Additional Properties: address, shoppingCart
+Constructor(s), getters, and setters.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Admin Class (Inherits from User):
+Additional Properties: adminId, adminRole
+Constructor(s), getters, and setters.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Create a main class to simulate interactions:
+Instantiate a few users: a regular user, a customer, and an admin.
+Set different properties for each instance.
+Display the details of each user, customer, and admin using appropriate methods.
